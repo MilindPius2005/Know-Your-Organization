@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "database": "employee_management",
+    "table": "employee_skills",
+    "exported_at": "2025-07-01T23:32:17.879056",
+    "record_count": 5,
+    "schema_version": 1.0
+  },
+  "schema": [
+    {
+      "COLUMN_NAME": "skill_id",
+      "DATA_TYPE": "int",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "PRI",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": "auto_increment"
+    },
+    {
+      "COLUMN_NAME": "employee_id",
+      "DATA_TYPE": "int",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "MUL",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "highest_degree",
+      "DATA_TYPE": "varchar",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "graduation_year",
+      "DATA_TYPE": "year",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "university",
+      "DATA_TYPE": "varchar",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "major",
+      "DATA_TYPE": "varchar",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "technical_skills",
+      "DATA_TYPE": "text",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "certifications",
+      "DATA_TYPE": "text",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "languages_spoken",
+      "DATA_TYPE": "varchar",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "last_updated",
+      "DATA_TYPE": "timestamp",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": "CURRENT_TIMESTAMP",
+      "EXTRA": "DEFAULT_GENERATED on update CURRENT_TIMESTAMP"
+    }
+  ],
+  "data": [
+    {
+      "skill_id": 101,
+      "employee_id": 1,
+      "highest_degree": "Master of Science",
+      "graduation_year": 2010,
+      "university": "Stanford University",
+      "major": "Computer Science",
+      "technical_skills": "Java, Python, SQL, Docker",
+      "certifications": "AWS Certified Developer, Oracle Certified Professional",
+      "languages_spoken": "English, Spanish",
+      "last_updated": "2025-06-18T17:22:05"
+    },
+    {
+      "skill_id": 102,
+      "employee_id": 2,
+      "highest_degree": "MBA",
+      "graduation_year": 2015,
+      "university": "Harvard University",
+      "major": "Marketing",
+      "technical_skills": "SEO, Google Analytics, Market Research",
+      "certifications": "Google Analytics Certified, HubSpot Marketing",
+      "languages_spoken": "English, French",
+      "last_updated": "2025-06-18T17:22:05"
+    },
+    {
+      "skill_id": 103,
+      "employee_id": 3,
+      "highest_degree": "PhD",
+      "graduation_year": 2008,
+      "university": "MIT",
+      "major": "Electrical Engineering",
+      "technical_skills": "System Architecture, Machine Learning",
+      "certifications": "PMP, CISSP",
+      "languages_spoken": "English, German",
+      "last_updated": "2025-06-18T17:22:05"
+    },
+    {
+      "skill_id": 104,
+      "employee_id": 4,
+      "highest_degree": "Bachelor of Science",
+      "graduation_year": 2019,
+      "university": "University of Texas",
+      "major": "Software Engineering",
+      "technical_skills": "JavaScript, React, Node.js",
+      "certifications": "React Developer Certification",
+      "languages_spoken": "English",
+      "last_updated": "2025-06-18T17:22:05"
+    },
+    {
+      "skill_id": 105,
+      "employee_id": 5,
+      "highest_degree": "Bachelor of Arts",
+      "graduation_year": 2017,
+      "university": "New York University",
+      "major": "Communications",
+      "technical_skills": "Content Writing, Social Media",
+      "certifications": "Content Marketing Certified",
+      "languages_spoken": "English, Spanish",
+      "last_updated": "2025-06-18T17:22:05"
+    }
+  ]
+}

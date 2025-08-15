@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "database": "employee_management",
+    "table": "employee_profile",
+    "exported_at": "2025-07-01T23:32:17.874484",
+    "record_count": 5,
+    "schema_version": 1.0
+  },
+  "schema": [
+    {
+      "COLUMN_NAME": "employee_id",
+      "DATA_TYPE": "int",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "PRI",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": "auto_increment"
+    },
+    {
+      "COLUMN_NAME": "first_name",
+      "DATA_TYPE": "varchar",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "last_name",
+      "DATA_TYPE": "varchar",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "date_of_birth",
+      "DATA_TYPE": "date",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "gender",
+      "DATA_TYPE": "enum",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "email",
+      "DATA_TYPE": "varchar",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "UNI",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "phone",
+      "DATA_TYPE": "varchar",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "hire_date",
+      "DATA_TYPE": "date",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "department",
+      "DATA_TYPE": "varchar",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "position",
+      "DATA_TYPE": "varchar",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "salary",
+      "DATA_TYPE": "decimal",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    },
+    {
+      "COLUMN_NAME": "manager_id",
+      "DATA_TYPE": "int",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "MUL",
+      "COLUMN_DEFAULT": null,
+      "EXTRA": ""
+    }
+  ],
+  "data": [
+    {
+      "employee_id": 1,
+      "first_name": "John",
+      "last_name": "Smith",
+      "date_of_birth": "1985-07-15",
+      "gender": "Male",
+      "email": "john.smith@company.com",
+      "phone": "555-010-1234",
+      "hire_date": "2018-03-12",
+      "department": "Engineering",
+      "position": "Senior Developer",
+      "salary": 95000.0,
+      "manager_id": null
+    },
+    {
+      "employee_id": 2,
+      "first_name": "Sarah",
+      "last_name": "Johnson",
+      "date_of_birth": "1990-11-22",
+      "gender": "Female",
+      "email": "sarah.j@company.com",
+      "phone": "555-010-5678",
+      "hire_date": "2020-06-18",
+      "department": "Marketing",
+      "position": "Marketing Manager",
+      "salary": 85000.0,
+      "manager_id": null
+    },
+    {
+      "employee_id": 3,
+      "first_name": "Michael",
+      "last_name": "Williams",
+      "date_of_birth": "1982-04-05",
+      "gender": "Male",
+      "email": "michael.w@company.com",
+      "phone": "555-010-9012",
+      "hire_date": "2016-09-05",
+      "department": "Engineering",
+      "position": "CTO",
+      "salary": 145000.0,
+      "manager_id": null
+    },
+    {
+      "employee_id": 4,
+      "first_name": "Emily",
+      "last_name": "Brown",
+      "date_of_birth": "1993-09-30",
+      "gender": "Female",
+      "email": "emily.b@company.com",
+      "phone": "555-010-3456",
+      "hire_date": "2021-01-15",
+      "department": "Engineering",
+      "position": "Junior Developer",
+      "salary": 65000.0,
+      "manager_id": 1
+    },
+    {
+      "employee_id": 5,
+      "first_name": "David",
+      "last_name": "Jones",
+      "date_of_birth": "1988-12-14",
+      "gender": "Male",
+      "email": "david.j@company.com",
+      "phone": "555-010-7890",
+      "hire_date": "2019-08-22",
+      "department": "Marketing",
+      "position": "Content Specialist",
+      "salary": 70000.0,
+      "manager_id": 2
+    }
+  ]
+}
